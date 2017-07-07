@@ -90,10 +90,62 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+aside {
+    width: 30%;
+    float: right;
+}
 
+body {
+    background-color: lightgray;
+}
 
+footer {
+    background-color: indianred;
+    clear: both;
+    color: white;
+    text-align: center;
+}
 
+h1, h2, h3 {
+    color: indianred;
+}
 
+h1 {
+    text-transform: capitalize;
+}
+
+main {
+    width: 70%;
+    float: left;
+}
+
+nav {
+    background-color: azure;
+    height: 15%;
+    padding-top: .5%;
+}
+
+nav li {
+    cursor: crosshair;
+    display: inline-block;
+    font-family: "Arial";
+
+}
+
+nav li:hover {
+    color: lawngreen;
+
+}
+
+.hero {
+    width: 100%;
+}
+
+.wrapper {
+    background-color: white;
+    margin: 0 auto;
+    width: 90%;
+}
 
 
 
